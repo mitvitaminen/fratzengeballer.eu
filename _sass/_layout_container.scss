@@ -1,0 +1,9 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: var(--max-height);
+    width: var(--max-width);
+    padding: 0.5rem;
+    column-gap: 0.81rem;
+    row-gap: 0.81rem;
+}

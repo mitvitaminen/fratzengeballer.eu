@@ -1,0 +1,9 @@
+@use './fontawesome/variables' with (
+  $font-path: '/assets/fonts/'
+);
+@use './fontawesome/fontawesome';
+@use './fontawesome/fa' as fa;
+@use './fontawesome/solid' as fa-solid;
+@use './fontawesome/brands' as fa-brands;
+@use './fontawesome/regular'as fa-regular;
+@use './fontawesome/v4-shims' as fa-shims;

@@ -1,0 +1,45 @@
+# META
+# baseurl: # only set if page is in /directory 
+description: Friese Fratze
+domain: fratzengeballer.eu
+email: 
+encoding: utf-8
+include: 
+   - _pages
+ 
+locale: "en-EN"
+title: Christian Rocholl
+url: "https://www.fratzengeballer.eu" 
+
+#PLUGINS
+whitelist           : []
+plugins:
+    - jekyll-feed
+    - jekyll-inline-svg
+    - jekyll-sass-converter
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - rogue-rails
+    - rubocop-rails
+
+#DEFAULTS
+defaults:
+  -
+    scope:
+      path: "assets/**/*"
+    values:
+      sitemap: false
+
+# BUILD
+kramdown:
+   input: GFM
+
+markdown:
+   kramdown
+     
+sass:
+  style: compressed
+
+timezone: Europe/Berlin
+
+theme: null

@@ -1,0 +1,33 @@
+:root  {
+    --base: 15px;
+    --max-width: 91rem;
+    --max-height: 91vh;
+}
+.background-color-black {
+    background-color: var(--background-color);
+}
+.background-color-poison {
+    background-color: var(--poisongreen-color);
+}
+.background-color-purple {
+    background-color: var(--purple-color);
+}
+html {    
+    background-image: url('/assets/images/bkgrd.png');
+    background-repeat: repeat;
+    font-size: var(--base);
+}
+body {    
+    color: var(--foreground-color);
+    font-family: var(--main-font);    
+    font-weight: bold;    
+    width: var(--max-width);
+    height: var(--max-height);
+}
+a i{
+    color: var(--poisongreen-color);    
+    font-size: 8rem;
+}
+a:visited i{
+    color: var(--purple-color);
+}
