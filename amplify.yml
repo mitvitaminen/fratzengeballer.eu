@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - bunle install
+        - bundle install
     build:
       commands:
         - bundle exec jekyll build
