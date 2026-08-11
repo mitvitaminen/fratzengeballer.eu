@@ -1,19 +1,17 @@
-<div class="bling_card">
-    <div class="content">
-        <a href='{{ include.href }}'><i class='{{ include.iconclass }}'></i>
-            <div class="title">
-                <strong>{{ include.title }}</strong>
+<section class="container">
+        <div class="card-container">
+            <div class="card-content">
+                <div class="card-title">
+                    <span class="title">{{ include.title }}</span>
+                </div>
+                <div class="card-body">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>                    
+                </div>
+                <div class="card-footer">
+                    <span class="title">{{ include.extrainfo }}</span>
+                </div>
             </div>
-            <div class='description'>
-                {{ include.description }}
-            </div>                                
-        </a>
-    </div>
-    <div class="circle">
-    </div>
-    <div class="circle" id="right">
-    </div>
-    <div class="circle" id="bottom">
-    </div>
-  </div>
-</div>
+        </div>
+    </section>

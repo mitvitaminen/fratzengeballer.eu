@@ -1,9 +1,13 @@
 :root  {
 	--base: 20em;
+   --base: 15px;
+       --max-width: 91rem;
+       --max-height: 91vh;
 }
 html {
 	background-image: url('../img/triangles.png');
 	background-repeat: repeat;
+   font-size: var(--base);
 }
 
 body {
@@ -11,6 +15,8 @@ body {
 	font-family: var(--main-font);
 	font-size: 1.25rem;
 	font-weight: bold;
+   width: var(--max-width);
+   height: var(--max-height);
 }
 
 a {

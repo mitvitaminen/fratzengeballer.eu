@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Judgementdayevents
+title: fratzengeballer.eu
 permalink: /
 navindex: 1
 ---
-{% include svg.html %}
+{% include bling_card.html title="Gesichtskirmes" extrainfo="Für Gulash und Strippelbohn ist gesorgt." %}

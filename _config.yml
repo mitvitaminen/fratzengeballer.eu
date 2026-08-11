@@ -1,15 +1,15 @@
 # META
 # baseurl: # only set if page is in /directory 
-description: They want hell...
-domain: judgementdayevents.net
-email: 
+description: fratzhengeballers gesichtskirmes
+domain: fratzengeballer.eu
+email: chris.rocholl@pm.me
 encoding: utf-8
 include: 
    - _pages
       
 locale: "en-EN"
 title: Christian Rocholl
-url: "https://www.judgementdayevents.net"
+url: "https://www.fratzengeballer.eu"
    
 
 
