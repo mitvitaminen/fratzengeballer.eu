@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Aunchanted";
-  src: asset_url("fonts/AunchantedBold.ttf");
+  font-family: "Inconsolata";
+  src: asset_url("fonts/Inconsolata-Regular.ttf");
 }
 :root{
-   --main-font: Aunchanted, Arial;   
+   --main-font:  Inconsolata;   
 }
