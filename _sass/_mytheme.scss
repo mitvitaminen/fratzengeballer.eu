@@ -8,3 +8,8 @@
 @use  'positioning.scss';
 @use  'skull01.scss';
 
+#logo {
+	content: url('/assets/img/logo_judgementdayevents.svg');
+	max-width: 80%;
+    margin: 0 auto;   
+}
