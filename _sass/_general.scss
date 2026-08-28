@@ -1,196 +1,123 @@
-:root  {
-	--base: 20em;
-   --base: 15px;
-       --max-width: 91rem;
-       --max-height: 91vh;
+html {
+    display: flex ;
+    justify-content: center;
+    align-items: center;   
+    background-image: url('../img/triangles.png');
+    background-repeat: repeat-y;
+}
+#scroll_top_div {
+     float: right;
 }
 html {
-	background-image: url('../img/triangles.png');
-	background-repeat: repeat;
-   font-size: var(--base);
+    height: min-content;
 }
-
 body {
-	color: var(--foreground-color);
-	font-family: var(--main-font);
-	font-size: 1.25rem;
-	font-weight: bold;
-   white-space: pre;
-   
-  
+        
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: var(--main-font);
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 a {
-	color: var(--poisongreen-color);
+    color: var(--poisongreen-color);
 }
 
 a:visited {
-	color: var(--purple-color);
+    color: var(--purple-color);
 }
 
 h1,
 h2,
 h3,
-img,
-p,
 ul {
-	margin: 0;
+    margin: 0;
 }
+
+h1,
+h2,
+h3,
+details {
+    margin-bottom: 0.55rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+}
+
+p,
+table {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+section {
+	margin-bottom: 8em;
+}
+
+#back2top {
+    position: absolute;
+
+}
+
 #logo {
-	content: url('/assets/img/skull01.svg');
-	max-width: 80%;
-    margin: 0 auto;
-    
-}
-.area {
-    max-width: 1024px;
-}
-.align_items_center {
-	align-items: center;
-}
-.background-color-black {
-	background-color: var(--background-color);
-}
-.background-color-poison {
-    background-color: var(--poisongreen-color);
-}
-.background-color-purple {
-    background-color: var(--purple-color);
-}
-.bombs {
-	left: 0;
-	height: 100%;
-	overflow: hidden;	
-}
-.bomb {
-	position: absolute;
-	content: url('/assets/img/bomb.svg');
-	max-height: 100%;
-	height: 20em;
-	z-index: -1;
-	animation: animate 25s linear infinite;	
-	animation-delay: 0s;
-	animation-duration: 15s;
-}
-.bombs li {
-	display: block;
-	list-style: none;
-}
-.bombs li .bomb {
-	left: 10%;
-	height: 10%;
-    top: -10%;
-	animation-delay: 0s;
-	animation-duration: 15s;
-}
-.bombs li:nth-child(2) .bomb{
-	left: 20%;
-	height: 30%;
-    top: -30%;
-	animation-delay: 0s;
-	animation-duration: 15s;
-}
-.bombs li:nth-child(3) .bomb{
-	left: 30%;
-	height: 15%;
-    top: -15%;
-	animation-delay: 2s;
-	animation-duration: 12s;
-}
-.bombs li:nth-child(4) .bomb{
-	left: 40%;
-	height: 25%;
-    top: -25%;
-	animation-delay: 24s;
-	animation-duration: 18s;
-}
-.bombs li:nth-child(5)  .bomb{
-	left: 50%;
-	height: 13.3%;
-    top: -13.3%;
-	animation-delay: 0s;
-	animation-duration: 25s;
-}
-.bombs li:nth-child(6) .bomb{
-	left: 60%;
-	height: 20%;
-    top: -20%;
-	animation-delay: 13s;
-	animation-duration: 8s;
-}
-.bombs li:nth-child(7) .bomb{
-	left: 70%;
-	height: 17.5%;
-    top: -17.5%;
-	animation-delay: 15s;
-	animation-duration: 31s;
-}
-.bombs li:nth-child(8) .bomb{
-	left: 80%;
-	height: 25%;
-    top: -25%;
-	animation-delay: 7s;
-	animation-duration: 18s;
-}
-.bombs li:nth-child(9) .bomb{
-    left: 90%;
-    height: 20%;
-    top: -20%;
-    animation-delay: 7s;
-    animation-duration: 18s;
-}
-.flex {
-	display: flex;
-}
-.flex_dir_column {
-	flex-direction: column;
-}
-.flex_grow_auto {
-	flex-grow: 1;
-}
-.height_100vh {
-	height: 100vh;
-}
-.justify_center {
-	justify-content: center;
-}
-.margin_bottom_1_25rem {
-	margin-bottom: 1.25rem;
-}
-.margin_0_auto {
-	margin: 0 auto;
-}
-.margin_left_right_auto {
-	margin-left: auto;
-	margin-right: auto;
-}
-.width_1024 {
-	width: 1024px;
-}
-.max_width_max_content {
-	max-width: max-content;
-}
-.min_height_100vh {
-	min-height: 100vh;
-}
-.padding_1rem {
-	padding: 1rem;
-}
-.top_left_50 {
-	top: 50%;
-	left: 50%;
-}
-.width_100 {
     width: 100%;
+    height: auto;
+	content: url('/assets/images/logo_judgementdayevents.svg');
 }
-.zindex3 {
-	z-index: 3;
+
+.align_items_center {
+    align-items: center;
 }
-@keyframes animate {
-	75% {
-		top: 10vh;
-	}
-	100% {
-		top: 100vh;
-	}
+
+.align_items_flex_end {
+    align-items: flex-end;
+}
+
+.flex {
+    display: flex;
+}
+p {white-space: pre;}
+.flex_dir_column {
+    flex-direction: column;
+}
+
+.flex_grow_auto {
+    flex-grow: 1;
+}
+
+.float_right {
+    float: right;
+}
+
+.min_height100vh {
+    min-height: 100vh;
+}
+
+.justify_center {
+    justify-content: center;
+}
+.margin_auto_0 {
+	margin: auto 0;
+}
+.margin_bottom_2_25rem {
+    margin-bottom: 2.25rem;
+}
+
+.margin_left_right_auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.max_width_999px {
+    max-width: 999px;
+}
+
+.max_width_max_content {
+    max-width: max-content;
+}
+
+.positiuon_relative {
+    position: relative;
 }

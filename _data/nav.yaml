@@ -1,0 +1,12 @@
+bars:
+  - txt: Judgementdayevents
+    anchor: jde
+
+  - txt: Info
+    anchor: info
+
+  - txt: DJinni
+    anchor: djinni
+
+  - txt: color changing skull
+    anchor: skull

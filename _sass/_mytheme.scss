@@ -1,15 +1,9 @@
+@use 'animations/fadeback2top.scss';
+@use 'animations/fadesections.scss';
 @use 'external/font-awesome';
-@use 'bling_card';
-@use  'colors.scss';
-@use  'fonts.scss';
-@use  'general.scss';
-@use  'layout_container.scss';
-@use  'margin_padding.scss';
-@use  'positioning.scss';
-@use  'skull01.scss';
+@use 'colors.scss';
+@use 'fonts.scss';
+@use 'general.scss';
+@use 'navbar.scss';
 
-#logo {
-	content: url('/assets/img/logo_judgementdayevents.svg');
-	max-width: 80%;
-    margin: 0 auto;   
-}
+
