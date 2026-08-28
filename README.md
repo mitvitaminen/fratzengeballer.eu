@@ -8,7 +8,7 @@ U serve them the site in a static way and would not start update the clients whe
 there not an reason like sharing items or something. When you do a refresh it is again a static page iwth static data served and there never an TCP or UDP http connection open and ALL first u send a REQUEST and then u get for this request an answer and the incomming is actually wrapped and bound to the OUTGOING request ALWAYS concerning firewall setups like windows has always open incoming for all. Ya all no server waiting for ANYONE to connect....!!
 
 Setup System
-a. Install ruby -> i.e. mise
+a. Install ruby -> i.e. mise https://mise.jdx.dev/installing-mise.html
 b. install bundler and jekyll gem
 
 setuprepository
