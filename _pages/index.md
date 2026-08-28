@@ -5,6 +5,7 @@ permalink: /
 navindex: 1
 ---
 {% include navbar.html %}
+{% include svg.html %}
 
 <section class="max_width_999px">
 added some rant for the rest our where sundae fruit frozen eat me, I love when you try beat me kartoffelig so voll auffe zwölf
@@ -12,7 +13,7 @@ Achja für die letzten zurückgeblienen ICH BIN TOTAL NEEGATIV wieso IHR denkt d
 und hattest schon mal echten türkischen hönig? siehste:) so ähnlich wie ich gehöllrt hab der fudge in Baltimore und der war voll in ner speziellen schule wenn ich an terile des wu tang clan denke und so die da auch hin gegangen sind. also ich hzab 4x todestrafe btw in den USA und kann EU nicht verlassen, weil epsteinisland löst sich auch nciht von allein. und letzttes mal nur 24h zeit hatte.
 also ich weiss ja es gibt medikamente und solte jemande die nciht vertragen dann KÖNNTE ich prophilaxe medikamente 2h vorher nehmen und kriegs dann auch nicht das stigmata wenns die leute wissen und du wurdest sozusagen auf den weg gebracht langsam zu sterben innerlich und ich ebenso weil ja ich angeblich das beiu dir war süsse mic h akrtoffelig schlug und davor angts hat weil sie shcon vollgeblutet hab und 2010 nochmal iran war die letzten sachen machen. Dust alley, Darkrotten alloy, und Sandcastle wo ziemlich closecombat die ganze zeit ist und so und ich n cut schon hatte darum war ic h ja auch erst kA 12 Jahre später testen. der mullahg hat gesagt ich SOLL alle aus dem dungeon holen WEIL er es satt hatte das schwsule aus allen regionen der erde dahin pilgern.
 </section>
-{% include svg.html %}
+
 
 {% include files.html %}
 
