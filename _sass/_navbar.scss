@@ -1,26 +1,21 @@
-ul.nav {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;   
 }
-
-ul.nav li {
-    float: right;
+nav ul li {
+    padding: 1rem;
+    background-color: var(--background-color);
 }
-
-ul.nav li a {
+nav ul li a {
     display: inline-block;
-    color: var(--poisongreen-color);
-    text-align: center;
-    padding: 14px 16px;
+    color: var(--poisongreen-color);        
     text-decoration: none;
 }
-
-ul.nav li a:hover:not(.active) {
+nav ul li a:hover:not(.active) {
     background-color: var(--purple-color)
 }
-
-ul.nav li a.active {
+nav ul li a.active {
     background-color: var(--orange-color);
 }

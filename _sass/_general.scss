@@ -1,7 +1,6 @@
 html {
     display: flex ;
-    justify-content: center;
-    align-items: center;   
+    justify-content: center;    
     background-image: url('../img/triangles.png');
     background-repeat: repeat-y;
     font-size: 1rem;    
@@ -13,106 +12,51 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
     line-height: 1.5;
-}
-section {
-    margin-top: 10%;  
+    max-width: 1555px;
 }
 a {
     color: var(--poisongreen-color);
 }
-
 a:visited {
     color: var(--purple-color);
 }
-
-h1,
-h2,
-h3,
-ul {
-    margin: 0;
-}
-
-h1,
-h2,
-h3,
-details {
-    margin-bottom: 0.55rem;
-}
-
-p {
-    margin-bottom: 1.25rem;
-}
-
-p,
-table {
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-.postition_stickyBR {
-    float: right;
-    position: sticky;
-    right: 22.5%;    
-    bottom: 0.55%;
-}
-.w100 {
-    max-width: 1555px;
-}
-.w90{
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.align_items_center {
-    align-items: center;
-}
-
-.align_items_flex_end {
-    align-items: flex-end;
+section {
+    margin-top: 10%;  
 }
 
 .flex {
-    display: flex;
+    display: flex;    
 }
-p {white-space: pre;}
-.flex_dir_column {
-    flex-direction: column;
+.flex_direction{
+    flex-direction: row;
 }
-
-.flex_grow_auto {
-    flex-grow: 1;
+.inline {
+    display: inline;
 }
-
-.float_right {
-    float: right;
+.sticky {
+    position: sticky;    
 }
-
-.min_height100vh {
-    min-height: 100vh;
-}
-
-.justify_center {
-    justify-content: center;
-}
-.margin_auto_0 {
-	margin: auto 0;
-}
-.margin_bottom_2_25rem {
-    margin-bottom: 2.25rem;
-}
-
-.margin_left_right_auto {
+.lr_auto {
     margin-left: auto;
     margin-right: auto;
 }
-
-.max_width_999px {
-    max-width: 999px;
+.w0_9{
+    max-width: 90%;   
 }
 
-.max_width_max_content {
-    max-width: max-content;
+// POSITIONING
+.float_r {
+    float: right;
 }
-
-.positiuon_relative {
-    position: relative;
+.top0 {    
+    top: 0;
+}
+.right0 {
+    right: 0;
+}
+.bottom0 {    
+    bottom: 0;    
+}
+.left0 {
+    left: 0;
 }
