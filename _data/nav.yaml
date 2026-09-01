@@ -1,6 +1,6 @@
 bars:
-  - txt: Judgementdayevents
-    anchor: jde
+  - txt: Logo
+    anchor: logo
 
   - txt: Info
     anchor: info
