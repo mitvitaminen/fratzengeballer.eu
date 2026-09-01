@@ -4,6 +4,7 @@ title: fratzengeballer.eu
 permalink: /
 navindex: 1
 ---
+
 {% include navbar.html %}
 {% include svg.html %}
 
