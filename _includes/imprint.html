@@ -1,8 +1,10 @@
-<div id="imprint" class="align0_auto"">
-    {% assign item = site.data.imprint %}
-	<h4>{{ item.title }}</h4>		
-	{{ item.name }}<br>
-    {{ item.strasse }}<br>
-    {{ item.ort }}<br>
-	{{ item.email }}<br>
+<div id="imprint"">
+    {% assign imprint = site.data.imprint %}
+	<h3>{{ imprint.title }}</h4>		
+	<ul>
+        <li>{{ imprint.name }}</li>
+        <li>{{ imprint.strasse }}</li>
+        <li>{{ imprint.ort }}</li>
+	   <li>{{ imprint.email }}</li>
+    </ul>
 </div>

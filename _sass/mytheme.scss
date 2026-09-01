@@ -1,7 +1,12 @@
+@use 'external/font-awesome';
+@use 'general';
+@use 'images';
+
 @font-face {
   font-family: "Inconsolata";
   src: asset_url("fonts/Inconsolata-Regular.ttf"); 
 }
+
 :root {
    --background-color: hsla(0, 0%, 13%, .81);
    --background-light-color: hsla(0, 0%, 21%, .81);
@@ -14,3 +19,4 @@
    --main-font: Inconsolata;   
    
 }
+
