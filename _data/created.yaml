@@ -1,0 +1,5 @@
+title: Page Info	 
+code: This pages sourcecode hosted on github file hosting
+codeurl: https://github.com/mitvitaminen/fratzengeballer.eu
+tech: Ruby on Rails with Jekyll gem for static webpages.
+svg: Animations done inside the SVG file with the animate-tag.

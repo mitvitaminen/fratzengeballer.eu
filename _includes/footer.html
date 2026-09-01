@@ -1,8 +1,10 @@
-<footer>
-	<div class="margin_auto_0">
-		{% assign footer = site.data.footer %}
-		<span class="headline">{{ footer.title }}</span>
-		{{ footer.firma }}<br> {{ footer.name }}<br> {{ footer.strasse
-		}}<br> {{ footer.ort }}<br> {{ footer.email }}		
-	</div>
+<footer id="foot">		
+    <div id="imprint" class="w90">
+        {% assign item = site.data.imprint %}
+	   <h4>{{ item.title }}</h4>		
+	   {{ item.name }}<br>
+	   {{ item.strasse }}<br>
+	   {{ item.ort }}<br>
+	   {{ item.email }}<br>
+    </div>
 </footer>

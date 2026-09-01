@@ -1,0 +1,13 @@
+item:
+    -
+        txt: JDE-Logo
+        anchor: logo
+    -
+        txt: VPN
+        anchor: vpn
+    - 
+        txt: DJinni
+        anchor: djinni
+    -
+        txt: Skulletje
+        anchor: skulletje

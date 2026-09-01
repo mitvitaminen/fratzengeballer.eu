@@ -1,15 +1,15 @@
-ul.horizontal {
+ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;   
 }
 
-ul.horizontal li {
+ul.nav li {
     float: right;
 }
 
-ul.horizontal li a {
+ul.nav li a {
     display: inline-block;
     color: var(--poisongreen-color);
     text-align: center;
@@ -17,10 +17,10 @@ ul.horizontal li a {
     text-decoration: none;
 }
 
-ul.horizontal li a:hover:not(.active) {
+ul.nav li a:hover:not(.active) {
     background-color: var(--purple-color)
 }
 
-ul.horizontal li a.active {
+ul.nav li a.active {
     background-color: var(--orange-color);
 }

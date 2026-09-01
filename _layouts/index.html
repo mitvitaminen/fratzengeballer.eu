@@ -2,9 +2,15 @@
 <html lang="en">
 {% include head.html %}
 
-<body >
-	<main class="max_width_999px">
-		{{ content }}
+<body class="w100">
+	<main>
+		<div class="w90">
+            {% include pagenav.html %}
+			{{ content }}
+		</div>
 	</main>
+    {% include footer.html %}
+    {% include back2top.html %}
 </body>
+
 </html>
