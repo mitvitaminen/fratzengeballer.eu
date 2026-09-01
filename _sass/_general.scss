@@ -1,18 +1,20 @@
 html {
-    display: flex ;
-    justify-content: center;    
     background-image: url('../img/triangles.png');
     background-repeat: repeat-y;
-    font-size: 1rem;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-body {
+body { 
     background-color: var(--background-color);
     color: var(--foreground-color);
     font-family: var(--main-font);
     font-size: 1.25rem;
-    font-weight: bold;
-    line-height: 1.5;
-    max-width: 1555px;
+    font-weight: bold;   
+    max-width: 1255px;
+    width: 1255px;    
+    margin: 0;
+    padding: 0;
 }
 a {
     color: var(--poisongreen-color);
@@ -24,21 +26,25 @@ section {
     margin-top: 10%;  
 }
 
-.flex {
-    display: flex;    
-}
-.flex_direction{
-    flex-direction: row;
-}
+
 .inline {
     display: inline;
 }
 .sticky {
     position: sticky;    
 }
+.margin1rem {
+    margin: 1rem;
+}
+.marginright1rem {
+    margin: 1rem;
+}
 .lr_auto {
     margin-left: auto;
     margin-right: auto;
+}
+.align0_auto {
+    margin: 0 auto;    
 }
 .w0_9{
     max-width: 90%;   
@@ -48,14 +54,17 @@ section {
 .float_r {
     float: right;
 }
+.float_l {
+    float: left;
+}
 .top0 {    
     top: 0;
 }
-.right0 {
-    right: 0;
+.right1rem {
+    right: 1rem;
 }
-.bottom0 {    
-    bottom: 0;    
+.bottom1rem {    
+    bottom: 1rem;    
 }
 .left0 {
     left: 0;

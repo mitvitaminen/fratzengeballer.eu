@@ -4,6 +4,7 @@ title: Blog
 permalink: /blog/
 inmenu: true
 ---
+
 <h1>Latest Posts</h1>
 
 <ul>

@@ -1,0 +1,10 @@
+<nav class="sticky float_r top0 margin1rem">
+    <ul>
+    {% for page in site.pages %}
+        {% if page.inmenu == true %}
+           <li><a href="{{ page.url }}">{{page.title}}</a></li>
+        {% endif %}
+    {% endfor %}
+    <li><a href="#imprint">Imprint</a></li>
+    </ul>
+</nav>

@@ -1,3 +1,8 @@
+nav {
+    padding: 1rem;
+    background-color: var(--background-color);
+    border-radius: 28px 0 28px 0;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -5,8 +10,7 @@ nav ul {
     overflow: hidden;   
 }
 nav ul li {
-    padding: 1rem;
-    background-color: var(--background-color);
+    padding: 0.5rem;
 }
 nav ul li a {
     display: inline-block;
