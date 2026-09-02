@@ -71,10 +71,15 @@ ul li {
 .inline {
     display: inline;
 }
-.lr_auto {
+.marginLRauto {
     margin-left: auto;
     margin-right: auto;
 }
+.marginTBauto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .margin0_auto {
     margin: 0 auto;    
 }
@@ -87,11 +92,11 @@ ul li {
 .pTop0 {    
     top: 0;
 }
-.pRight1rem {
-    right: 1rem;
+.pRight0 {
+    right: 0;
 }
-.pBottom1rem {    
-    bottom: 1rem;    
+.pBottom0 {    
+    bottom: 0;    
 }
 .pLeft0 {
     left: 0;
