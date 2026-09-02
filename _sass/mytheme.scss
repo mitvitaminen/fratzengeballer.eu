@@ -1,9 +1,15 @@
-@use 'external/font-awesome';
 @use 'general';
 @use 'fonts';
 @use 'images';
 @use 'postcard';
 @use 'reactive-content';
+@use './fontawesome/variables' with (
+  $font-path: '../webfonts'
+);
+@use './fontawesome/fontawesome';
+@use './fontawesome/fa' as fa;
+@use './fontawesome/solid' as fa-solid;
+@use './fontawesome/brands' as fa-brands;
 
 :root {
     --main-font: "Monaspace-Krypton";    

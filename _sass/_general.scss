@@ -10,10 +10,7 @@
   margin-top: calc(100vh + var(--offset));
 }
 a {
-    color: var(--poisongreen);  
-    div {
-         
-    } 
+    color: var(--poisongreen);   
 }
 a:active , a:visited, a:hover {
     color: var(--blue);
@@ -22,7 +19,7 @@ a:active , a:visited, a:hover {
 
 nav div {
     background-color: var(--background);
-    border-radius: 0 8px 0 8px;
+    
     
     &:active ul {
         display: sticky;
@@ -31,7 +28,7 @@ nav div {
         display: none;
         list-style-type: none;                
         margin: 0;
-        
+        border-radius: 0 25px;
         
         > li {
             padding: 1rem;            
@@ -91,4 +88,7 @@ section {
 }
 .width_95, #maindiv {
     width: var(--width_95);
+}
+.width256 {
+    width: 256px;
 }
