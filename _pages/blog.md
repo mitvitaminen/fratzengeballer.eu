@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: blog
 title: Blog
 permalink: /blog/
-inmenu: true
+menu: true
 ---
 
 

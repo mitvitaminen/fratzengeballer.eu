@@ -1,12 +1,12 @@
-<nav id="pagenav">
-    <div class="sticky float_r pTop0">
-        <i class="fa-solid fa-bars"></i>        
-        <ul >
+<nav class="sticky float_r pTop0">
+    <ul>
+        <li><i class="fa-solid fa-bars"></i></li>
+        <div class="pagenavs">
         {% for page in site.pages %}
-            {% if page.inmenu == true %}
-                <li><a href="{{ page.url }}">{{page.title}}</a></li>
+            {% if page.menu == "true" %}
+            <li><a href="{{ page.permalink }}"><i class="fa-solid fa-bars">{{ page.title }}</a></li>
             {% endif %}
-        {% endfor %}        
-        </ul>
-    </div>
+        {% endfor %}
+        </div>
+    </ul>
 </nav>

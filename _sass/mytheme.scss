@@ -21,8 +21,14 @@
     --purple: hsla(281, 100%, 50%, 1.0);
     --background: hsla(0, 0%, 13%, .81);    
     --foreground: hsla(181, 100%, 55%, .81);
+    --ttf-inconsolata: Inconsolata;
+    --ttf-monaspace-argon: Monaspace-Argon;
+    --ttf-monaspace-krypton: Monaspace-Krypton;
+    --ttf-monaspace-neon: Monaspace-Neon;
+    --ttf-monaspace-radon: Monaspace-Radon;
+    --ttf-monaspace-xenon: Monaspace-Xenon;
 }
-html {
+html {  
     background-image: url('../img/triangles.png');
     background-repeat: repeat-y;
     display: flex;
@@ -32,7 +38,7 @@ body {
     background-color: var(--background);
     color: var(--foreground);
     font-family: var(--main-font);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     width: var(--width-max);
     margin: 0 auto;

@@ -3,48 +3,69 @@
     align-items: start; 
     width: var(--width_95); 
 }
+
 #scroll_top_div {  
   --offset: 151px;
   --fade: calc(var(--offset)*0.66);
   height: var(--offset);
   margin-top: calc(100vh + var(--offset));
 }
+#djinni, #djinni-plus {
+    font-family: Monaspace-Neon;
+    font-size: 0.25rem;
+}
+#djinni-plus {
+    font-size: 2.5rem
+}
+
 a {
     color: var(--poisongreen);   
 }
 a:active , a:visited, a:hover {
     color: var(--blue);
+   
+}
+nav {
+  > li i:active  div {
+    display: relative;
+ }
+ > li i:active:hover a {
     text-shadow: 0 0 0.25rem var(--blue), 0 0 0.13em var(--poisongreen);
-}
-i {
-    font-size: 3rem;
-}
-nav div {
+ } 
+    
+     
+  ul {
     background-color: var(--background);
-        
-    &:active ul {
-        display: sticky;
-    }
-    > ul {
-        display: none;
-        list-style-type: none;                
-        margin: 0;
-        border-radius: 0 25px;
-        
-        > li {
-            padding: 1rem;            
-        }
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+  }
+  
+  div {
+    display: none;
+  }
+      
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  
+}
+
+section {
+    margin-bottom: 3rem;    
+
+    > subsection {
+        margin-top:0.75rem;
+        margin-bottom:0.91rem;
     }
     
 }
-section {    
-    margin-top: 3.5em;
-    
-    subsection {
-        margin-top:0.5em;
-        margin-bottom:1.5em;
-    }
-}
+
+// CLASSES
 .flex {
     display: flex;
 }
@@ -57,7 +78,7 @@ section {
 .float_l {
     float: left;
 }
-.float_r, #scroll_top_div{
+.float_r, {
     float: right;
 }
 .inline {
@@ -66,10 +87,10 @@ section {
 .justify-center {
     justify-items: center;
 }
-.margin_0auto {
+.margin_0-auto {
     margin: 0 auto;    
 }
-.margin_0_5auto {
+.margin_5rem-auto {
     margin: 0.5rem auto;    
 }
 .pTop0 {    
@@ -84,12 +105,6 @@ section {
 .pLeft0 {
     left: 0;
 }
-.sticky, #scroll_top_div,  {
+.sticky {
     position: sticky;    
-}
-.width_95, #maindiv {
-    width: var(--width_95);
-}
-.width256 {
-    width: 256px;
 }
