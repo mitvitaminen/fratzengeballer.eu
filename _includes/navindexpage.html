@@ -1,0 +1,7 @@
+<nav class="sticky float_l top0 margin1rem">
+    <ul>
+        {% for anchor in site.data.anchors.indexpage %}
+            <li><a href='#{{ anchor.anchor }}'>{{ anchor.txt }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
