@@ -1,19 +1,53 @@
-title: Page Info	 
-code: This pages sourcecode hosted on github file hosting under Apache-License
-codeurl: https://github.com/mitvitaminen/fratzengeballer.eu
-tech: Ruby on Rails with Jekyll gem for static webpages.
-svg: Animations done inside the SVG file with the animate-tag.
-tipp: 
-    - pam Authentication system-user-remote -> all pam_deny.so 
-    - /etc/security/access.conf ALL BEHIND THE HASHTAG inside the file are comments 
-        <br>
-        +:root:LOCAL <br>
-        +:irgendsower:IP_RANGE_AS_IDEFINE <br>
-        -:ALL:ALL <br>
-pacmans: 
-    windows: <a href="https://chocolatey.org/"> Windows Chocolatey</a>
-    macos: <a href="https://brew.sh/"> MacOS BREW</a>
-    linux: <a href="https://endeavouros.com/">EndevourOS an Arch based Linux Distribtuion <br>
-     when wiggle your finger in ear you hear pacman and see you can too</a>
-     
+title: This page infoss
+spast:
+    intro: Schlinger Boebekes de Spast benutzt
+    url: https://endeavouros.com/
+    txt: EndevourOS an Arch based Linux Distribtuion
+    
+tech:	 
+    github:        
+        text: This pages sourcecode hosted on
+        linktxt: github file hosting under Apache-License
+        url: https://github.com/mitvitaminen/fratzengeballer.eu
+    ruby: Ruby on Rails is the infrastructure of the project.
+    jekyll: Jekyll is beeing used to generate a static webpage.
+    svg: Animations done inside the SVG File.
+        
+tipp:
+    yonder: Some infos for development reasons of you people and why you can not login on my machine. 
+    pam_d: pam_deny.so required authentication in /etc/system-remote-login  
+    access: 
+        txt: Login control with file /etc/security/access.conf modified 
+        root: +:root:LOCAL 
+        user: +:user:LOCAL
+        all: -:ALL;ALL
+    ufw:
+        topic: Firewalls 
+        why: linux uncomplicated firewall you would configure to deny incoming traffic becasue normally you do not run a server. When you run SSH Remotelogin on your device alter the rules by the below command. Do all know thatz  HTTP-GET-Request is send by you most of the times, like browsing in a browser does that whenb you enter a URL the webpage-hosting-computer send then a REPLY with RESPONSECODE too like 404 error or it has attached the web-page. All this is actually OUTGOING even when you download, since u first click an item an REQUEST it then.
+        cmd: Commands for ufw firewall
+        pre: <pre>sudo ufw default deny incomming</pre> <br> <pre>sudo ufw allow incoming ssh</pre>
+        win: so Windows user open firewwall advanced where u can see INCOMING rules and DEACTIVATE ALL because they then are blocked or you must someplace firewall set INCOMING DENY EXPLICITLY.  
+
+box:
+    txt: ARM or RaspberryPI/ Android/ Internet of Things or x86 what do I download?    
+    arm: <span class"font4en">risc - reduced instruction set computer</span> aka RaspberryPi, Androiddevices, iPhone use <span class="font2_5em">aarch64</span> (arm architecture 64bit), <span class="font2_5em">ARM8</span>(arm architecture 32bit)   
+    x86: <span class"font4en">cisc - complex instruction set computer</span> aka the normal old Personal Computer like towers, barebones, most laptops use a <span class="font2_5em">x86_64</span> well normal computers laptops certain internet of things, is actually the 1986-still in use design of a computer that we do all know at home.
+    iso2usb:
+        text: Applications for ISO bruning on a USB - feel like Nero the OH NO ITHACCER IS GREEKISLAND and HOME OF ODSYSSEUS...  
+        rufus:
+            url: https://rufus.ie/
+            txt: Rufus ISO2USB Application
+        etcher:
+            url: https://github.com/balena-io/etcher
+            txt: balena Etcher ISO n IMG to USB
+  
+shell:
+    topic: SHELL installing all the Opensource via COMMAND-line
+    txt: Installing from the SHELL like linux can all for git, inkscape, gimp, mise (for Ruby on Rails),mypaint, mixxx, lmms and other opensource appliocations and all tghe other stuff normally opensource and free for anyone. so see links for Packagemaneger for Comandline aka Powershell aka Terminal
+    windows: 
+        url: https://chocolatey.org
+        txt: Windows users do want to get Chocolatey 
+    macos:
+        url: https://brew.sh/
+        txt: MacOS aka AppleOS users wwant to check out homeBREW
     

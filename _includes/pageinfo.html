@@ -1,22 +1,57 @@
+{% assign created = site.data.created %}
 <section>
-<div class="margin1rem">
-    {% assign created = site.data.created %}
-       <h3>{{ created.title }}</h3>
-       <ul>
-           <li><a href="{{ crteated.codeurl }}">{{ created.code }}</a></li>
-           <li>{{ created.tech }}</li>
-           <li>{{ created.svg }}</li>
-           <li>Tipp1: {{ created.tipp[0] }}</li>
-           <li>Tipp1: {{ created.tipp[1] }}</li>           
-           <li><div>
-                Fo installing git, inkscape, gimp, mise (for Ruby on Rails), 
-                <br>and all tghe other stuff normally opensource and free for anyone.  
-                <br> Packagemaneger for Terminal aka CMD {{ created.pacmans.macos }}
-                <br> Packagemaneger for CMD or Powershell {{ created.pacmans.windows }}
-                <br>
-                <br> Schlinger Boebekes de Spast benutzt {{ created.pacmans.linux }}
-                </div>
-             </li>                
-       </ul>
-       </div>
-       </section>
+    <h4>{{ created.title }}    
+    <span>{{ created.spast.intro }} </span><a href="{{ created.spast.url }}"><div>{{ created.spast.txt }}</div></a>
+ 
+
+<subsection>
+        <span>{{ created.tech.github.text }}<a href="{{ crteated.tech.github.url }}">{{ created.tech.github.linktxt }}</a>
+        <ul>
+            <li>{{ created.tech.ruby }}</li>
+            <li>{{ created.tech.jekyll }}</li>
+            <li>{{ created.tech.svg }}</li>
+        </ul>
+</subsection>
+
+<subsection>
+        <h3>{{ created.tipp.yonder }}</h3>
+        <ul>
+            <li>{{ created.tipp.pam_d }}</li>
+            <li>{{ created.tipp.access.txt }}
+            <ul>
+                <li>{{ created.tipp.access.root }}</li>
+                <li>{{ created.tipp.access.user }}</li>                        
+                <li>{{ created.tipp.access.all }}</li>
+            </ul>
+            </li>
+        </ul>
+
+        <h3>{{ created.ufw.topic }}</h3>
+        <p>{{ created.ufw.why }}</p>
+        <h4>{{ created.ufw.cmd }}</h4>
+        <p>{{ created.ufw.pre }}</p>
+        <p>{{ created.ufw.cmd.win }}</p>
+</subsection>
+
+<subsection>
+    <h3>{{ created.box.txt }}</h3>
+    <p>{{ created.box.arm }}</p>
+    <p>{{ created.box.x86 }}</p>
+            
+    <h4>{{ created.box.iso2usb.text }}</h4>
+    <ul>  
+        <li><a href="{{ created.box.iso2usb,rufus.url }}">{{ created.box.iso2usb.rufus.txt }} </a></li>
+        <li><a href="{{ created.box.iso2usb.etcher.url }}">{{ created.box.iso2usb.etcher.txt }} </a></li>
+    </ul>
+</subsection>    
+
+<subsection>    
+    <h3>{{ created.pacmans.shell.topic</h3>
+    <p>{{ created.pacmans.shell.txt</p>
+    <ul>
+        <li><a href="{{ created.shell.windows.url }}">{{ created.shell.windwos.txt }}</a></li>
+        <li><a href="{{ created.shell.macos.url }}">{{ created.shell.macos.txt }}</a></li>
+    </ul>
+</subsection>    
+    
+</section>

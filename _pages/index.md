@@ -4,10 +4,9 @@ title: Index
 permalink: /
 inmenu: true
 ---
-{% include navindex.html %}
-{% include pageinfo.html %}
 {% include top.html %}
+{% include pageinfo.html %}
+{% include djinni.html %}
+{% include svg_animated.html %}
 {% include vpnfiles.html %}
-{% include djinnitxt.html %}
-{% include skulletje.html %}
 {% include postsfeed.html %}
