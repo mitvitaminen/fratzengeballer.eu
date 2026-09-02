@@ -16,11 +16,12 @@ a:active , a:visited, a:hover {
     color: var(--blue);
     text-shadow: 0 0 0.25rem var(--blue), 0 0 0.13em var(--poisongreen);
 }
-
+i {
+    font-size: 3rem;
+}
 nav div {
     background-color: var(--background);
-    
-    
+        
     &:active ul {
         display: sticky;
     }
