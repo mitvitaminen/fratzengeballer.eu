@@ -5,7 +5,7 @@ tech: Ruby on Rails with Jekyll gem for static webpages.
 svg: Animations done inside the SVG file with the animate-tag.
 tipp: 
     - pam Authentication system-user-remote -> all pam_deny.so 
-    - /etc/security/access.conf 
+    - /etc/security/access.conf ALL BEHIND THE HASHTAG inside the file are comments 
         <br>
         +:root:LOCAL <br>
         +:irgendsower:IP_RANGE_AS_IDEFINE <br>
