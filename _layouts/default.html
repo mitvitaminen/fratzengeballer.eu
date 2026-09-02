@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    <div class="max-width margin0_5auto">
+       <header>
+            {% include navpage.html %}
+       </header>
+	   <main>                    
+	       {{ content }}
+        </main>
+        <footer>
+            {% include imprint.html %}
+        </footer>
+        {% include back2top.html %}
+    </div>
+</body>
+</html>

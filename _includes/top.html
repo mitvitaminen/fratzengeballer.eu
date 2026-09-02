@@ -1,11 +1,17 @@
-<section>
-    <div class="height100vh ">
-        <img id="intro" class="marginTBauto" />
-    </div>		
-    <img id="logo" />
-    {% assign created = site.data.created %}
-    <h3>{{ created.title }}</h3>
-    <a href="{{ crteated.codeurl }}">{{ created.code }}</a><br>
-    {{ created.tech }}<br>
-    {{ created.svg }}<br>    
+<section id="top">
+    <div class="height100vh">
+        <img id="intro" />
+    </div>
+    <div class="height100vh">
+        <img id="logo"/>
+    </div>
+    <div class="height100vh">
+        {% assign created = site.data.created %}
+        <h3>{{ created.title }}</h3>
+        <ul>
+            <li><a href="{{ crteated.codeurl }}">{{ created.code }}</a></li>
+            <li>{{ created.tech }}</li>
+            <li>{{ created.svg }}</li>
+        </ul> 
+    </div>   
 </section>

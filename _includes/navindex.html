@@ -1,0 +1,7 @@
+<nav class="sticky pTop0">    
+    <ul class="float_l margin1rem">
+        {% for anchorindex in site.data.anchors.indexpage %}
+            <li><a href='#{{ anchorindex.anchor }}'>{{ anchorindex.txt }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>

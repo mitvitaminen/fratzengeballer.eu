@@ -1,22 +1,44 @@
 @use 'external/font-awesome';
 @use 'general';
 @use 'images';
+@use 'postcard';
 
 @font-face {
   font-family: "Inconsolata";
   src: asset_url("fonts/Inconsolata-Regular.ttf"); 
 }
+@font-face {
+  font-family: "Monaspace Argon";
+  src: asset_url("fonts/Monaspace-Argon-Var.ttf"); 
+}
+@font-face {
+  font-family: "Monaspace Krypton";
+  src: asset_url("fonts/Monaspace-Krypton-Var.ttf"); 
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  src: asset_url("fonts/Monaspace-Neon-Var.ttf"); 
+}
+@font-face {
+  font-family: "Monaspace Radon";
+  src: asset_url("fonts/Monaspace-Radon-Var.ttf"); 
+}
+@font-face {
+  font-family: "Monaspace Xenon";
+  src: asset_url("fonts/Monaspace-Xenon-Var.ttf"); 
+}
 
 :root {
-   --background-color: hsla(0, 0%, 13%, .81);
-   --background-light-color: hsla(0, 0%, 21%, .81);
-   --foreground-color:  hsl(180, 100%, 55%);
-   --orange-color: hsl(13, 100% , 50%);
-   --poisongreen-color: hsl(91, 100%, 50%);
-   --purple-color: hsl(269, 100%, 50%); 
-   --shadow-color: var(--background-light-color);
+   --background: hsla(0, 0%, 13%, .81);
+   --background-light: hsla(0, 0%, 21%, .81);
+   --foreground:  hsl(180, 100%, 55%);
+   --orange: hsl(13, 100% , 50%);
+   --poisongreen: hsl(91, 100%, 50%);
+   --purple: hsl(281, 100%, 50%); 
+   --shadow: var(--background-light-color);
    
-   --main-font: Inconsolata;   
-   
+   --main-font: Monasans Krypton;
+   --const-1255px: 1255px;
+   --const-width: calc(var(--const-1255px)*0.95);      
 }
 

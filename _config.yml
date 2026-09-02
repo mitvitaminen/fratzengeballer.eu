@@ -1,26 +1,25 @@
 # META
 # baseurl: # only set if page is in /directory 
-description: fratzhengeballers gesichtskirmes
+description: fratzhengeballer + gesichtskirmes
 domain: fratzengeballer.eu
+url: "https://www.fratzengeballer.eu"
 email: chris.rocholl@pm.me
 encoding: utf-8
+locale: "en-EN"
+
+# COLLECTIONS
 include: 
    - _pages
-      
-locale: "en-EN"
-title: Christian Rocholl
-url: "https://www.fratzengeballer.eu"
-   
 
+# PERMALINK pretty - /:categories/:year/:month/:day/:title/
+permalink: pretty
 
-#PLUGINS
-whitelist           : []
+# PLUGINS
 plugins:
    - jekyll-feed
    - jekyll-seo-tag 
 
 # BUILD
-
 kramdown:
    input: GFM
 

@@ -1,19 +1,28 @@
 #logo {
 	content: url('/assets/images/logo_judgementdayevents.svg');
 	alt: 'judgementdayevents';
+    width: 888px;
+    height: auto;
 }
 #intro { 
 	content: url('/assets/images/tipzofgo0d.svg');
 	alt: 'tipps';
+    width: 888px;
+    height: auto;    
 }
 #skull { 
 	content: url('/assets/images/skull01.svg');
-	alt: 'Dia de la muerte skull';	
+	alt: 'Dia de la muerte skull';
+    width: 888px;
+    height: auto;	
 }
 #back2top { 
     content: url('/assets/images/back2top.svg');
     alt: 'Back2Top Icon';
-    height: 100%;  
 }
-
+#postlogo {
+    content: url('/assets/images/back2top.svg');
+    alt: 'Back2Top Icon';
+    width: 151px;
+}
          

@@ -1,4 +1,27 @@
-<div>
-    <h4>{{ title }}</h4>
-    {{ content }}
+<div class="ticket">
+    <div class="t-content flex flex-dir-col">
+        <div class="flex flex-dir-row">
+            <img id="postlogo" />          
+            {% for cat in page.categroies %}
+                <span class="t-genre"> {{ cat }}</span>
+            {% endfor %}
+        </div>
+        <div class="flex flex-dir-col">
+            <span class="t-title">{{ page.title }}</span> 
+            <span class="t-label">{{ page.date | date: "%d-%m-%Y %H:%M" }}</span>
+            <span class="t-label">{{ page.excerpt }}</span>
+        </div>        
+        {{ content }}
+        <div class="t-stub flex flex-dir-col">
+            <hr class="t-perforation">                                
+            <div class="flex flex-dir-row">
+                <div class="flex flex-dir-col">
+                    <div class="t-barcode"></div>
+                    <div class="t-barcode-id">DIGITILT-555-{{ page.date | date: "%d-%m-%Y %H:%M" }}-BET</div>
+                </div>
+                 <span class="t-admit-text">#</span>
+                 <span class="t-admit-num">555</span>
+             </div>
+        </div>
+    </div>
 </div>
