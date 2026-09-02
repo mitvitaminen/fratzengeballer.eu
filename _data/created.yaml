@@ -3,3 +3,17 @@ code: This pages sourcecode hosted on github file hosting under Apache-License
 codeurl: https://github.com/mitvitaminen/fratzengeballer.eu
 tech: Ruby on Rails with Jekyll gem for static webpages.
 svg: Animations done inside the SVG file with the animate-tag.
+tipp: 
+    - pam Authentication system-user-remote -> all pam_deny.so 
+    - /etc/security/access.conf 
+        <br>
+        +:root:LOCAL <br>
+        +:irgendsower:IP_RANGE_AS_IDEFINE <br>
+        -:ALL:ALL <br>
+pacmans: 
+    windows: <a href="https://chocolatey.org/"> Windows Chocolatey</a>
+    macos: <a href="https://brew.sh/"> MacOS BREW</a>
+    linux: <a href="https://endeavouros.com/">EndevourOS an Arch based Linux Distribtuion <br>
+     when wiggle your finger in ear you hear pacman and see you can too</a>
+     
+    
