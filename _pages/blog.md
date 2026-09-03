@@ -4,6 +4,3 @@ title: Blog
 permalink: /blog/
 menu: true
 ---
-
-
-

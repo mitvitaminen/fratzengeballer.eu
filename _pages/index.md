@@ -4,7 +4,7 @@ title: Index
 permalink: /
 menu: true
 ---
-{% include top.html %}
+{% include navindex.html %}
 {% include pageinfo.html %}
 {% include djinni.html %}
 {% include svg_animated.html %}

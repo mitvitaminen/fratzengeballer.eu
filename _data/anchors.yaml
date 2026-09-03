@@ -1,9 +1,13 @@
 indexpage:
-    - txt: JDE-Logo
-      anchor: logo
-    - txt: VPN
-      anchor: vpn
+    - txt: Pagenavi
+      anchor: pagenavi    
+    - txt: Intro
+      anchor: intro
+    - txt: Yonder
+      anchor: yonder
     - txt: DJinni
-      anchor: djinni
-    - txt: Skulletje
-      anchor: skulletje
+      anchor: djinni      
+    - txt: animated SVGs
+      anchor: svg
+    - txt: PlantVPN
+      anchor: vpn

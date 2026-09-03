@@ -1,6 +1,39 @@
-#maindiv {    
-    justify-content: center;
-    align-items: start; 
+:root {
+    --main-font: "Monaspace-Krypton";    
+    --width-max: 1024px;
+    --width_95: calc(var(--width-max)*0.95);
+    --blue: hsla(255, 100%, 50%, 1.0);
+    --orange: hsla(13, 100% , 50%, 1.0);
+    --poisongreen: hsla(91, 100%, 50%, 1.0);
+    --purple: hsla(281, 100%, 50%, 1.0);
+    --background: hsla(0, 0%, 13%, .81);    
+    --foreground: hsla(181, 100%, 55%, .81);
+    --ttf-inconsolata: Inconsolata;
+    --ttf-monaspace-argon: Monaspace-Argon;
+    --ttf-monaspace-krypton: Monaspace-Krypton;
+    --ttf-monaspace-neon: Monaspace-Neon;
+    --ttf-monaspace-radon: Monaspace-Radon;
+    --ttf-monaspace-xenon: Monaspace-Xenon;
+}
+
+html {  
+    background-image: url('/assets/images/bkgrd.png');
+    background-color: #bcbbcb;
+         
+}
+body {
+    
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: bold;
+    width: var(--width-max);
+    margin: 0 auto;
+    padding: 0;
+}
+
+#maindiv {        
     width: var(--width_95); 
 }
 
@@ -10,13 +43,17 @@
   height: var(--offset);
   margin-top: calc(100vh + var(--offset));
 }
-#djinni, #djinni-plus {
+#djinni {
     font-family: Monaspace-Neon;
     font-size: 0.25rem;
+    white-space-trim: discard-before;    
 }
-#djinni-plus {
-    font-size: 2.5rem
+#djinni {
+    > .resizeFont  {
+        font-size: 2.5rem
+    }    
 }
+
 
 a {
     color: var(--poisongreen);   
@@ -25,6 +62,12 @@ a:active , a:visited, a:hover {
     color: var(--blue);
    
 }
+header, main, footer {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 nav {
   > li i:active  div {
     display: relative;
@@ -43,9 +86,7 @@ nav {
   
   div {
     display: none;
-  }
-      
-  li { display: inline-block; }
+  }  
 
   a {
     display: block;
@@ -55,16 +96,20 @@ nav {
   
 }
 
-section {
+section {    
     margin-bottom: 3rem;    
 
     > subsection {
-        margin-top:0.75rem;
-        margin-bottom:0.91rem;
+        > hr {
+            border-top: 3.1px; 
+            border-style: dotted;
+            border-color: var(--foreground);         
+        }
     }
-    
 }
-
+p {
+    width: var(--width_95);    
+}
 // CLASSES
 .flex {
     display: flex;
@@ -78,7 +123,7 @@ section {
 .float_l {
     float: left;
 }
-.float_r, {
+.float_r, #back2top {
     float: right;
 }
 .inline {
@@ -105,6 +150,10 @@ section {
 .pLeft0 {
     left: 0;
 }
-.sticky {
+.pre-whitespace {
+    
+    white-space: preserve nowrap;
+}
+.sticky, #back2top , nav { 
     position: sticky;    
 }
