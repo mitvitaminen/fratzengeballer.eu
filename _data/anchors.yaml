@@ -3,6 +3,8 @@ indexpage:
       anchor: pagenavi    
     - txt: Intro
       anchor: intro
+    - txt: github
+      anchor: github
     - txt: Yonder
       anchor: yonder
     - txt: DJinni
