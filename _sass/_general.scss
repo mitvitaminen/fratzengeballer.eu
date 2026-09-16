@@ -86,10 +86,6 @@ nav {
     padding: 0;
     list-style: none;    
   }
-  
-  div {
-    display: none;
-  }  
 
   a {
     display: block;
@@ -155,7 +151,7 @@ p {
 }
 .pre-whitespace {
     
-    white-space: preserve nowrap;
+    white-space: preserve;
 }
 .sticky, #back2top , nav { 
     position: sticky;    
