@@ -5,6 +5,8 @@ permalink: /
 menu: true
 ---
 
-{% include svg_animated.html %}
 {% include djinni.html %}
+{% include cults.html %}
+{% include svg_animated.html %}
+
 {% include vpnfiles.html %}
