@@ -36,6 +36,9 @@ body {
 #maindiv {        
     width: var(--width_95); 
 }
+p {
+	width: 100%;
+}
 
 #scroll_top_div {  
   --offset: 151px;
@@ -45,8 +48,8 @@ body {
 }
 #djinni {
     font-family: Monaspace-Neon;
-    font-size: 0.25rem;
-    white-space-trim: discard-before;    
+    font-size: 1rem;
+        
 }
 #djinni {
     > .resizeFont  {

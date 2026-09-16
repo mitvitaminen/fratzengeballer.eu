@@ -2,7 +2,7 @@
 @use 'fonts';
 @use 'images';
 @use 'postcard';
-@use 'reactive-content';
+
 @use './fontawesome/variables' with (
   $font-path: '../webfonts'
 );
