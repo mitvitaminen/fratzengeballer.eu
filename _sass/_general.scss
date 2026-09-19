@@ -22,12 +22,13 @@ html {
          
 }
 body {
-    
+    font: 1.25rem bold;
     background-color: var(--background);
-    color: var(--foreground);
-    font-family: var(--main-font);
-    font-size: 1rem;
+    color: var(--poisongreen) ;
+    font: var(--main-font);
+    font-size: 1.25rem;
     font-weight: bold;
+    text-shadow: 0 0 .69rem var(--purple)
     width: var(--width-max);
     margin: 0 auto;
     padding: 0;
