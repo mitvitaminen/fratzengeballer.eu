@@ -9,4 +9,3 @@ menu: true
 {% include cults.html %}
 {% include svg_animated.html %}
 
-{% include vpnfiles.html %}
